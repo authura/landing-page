@@ -30,7 +30,7 @@ nav a{
     font-size: 18px;
 }
 
-header, .hero {
+header, .hero, footer {
     background-color: #1f2937;
 
 }
@@ -146,4 +146,10 @@ button {
     font-size: 18px;
     font-weight: bold;
     color: #1f2937;
+}
+
+footer {
+    padding: 16px;
+    color: #e5e7eb;
+    text-align: center;
 }
