@@ -11,11 +11,13 @@ html {
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+/* header logo and navbar */
 header {
     display: flex;
     padding: 16px;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .header-logo {
@@ -24,23 +26,32 @@ header {
     font-weight: bold;
 }
 
+/* navbar links */
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
 nav a{
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
 }
 
-header, .hero, footer {
+header, .hero, footer /* color to header, hero, and footer */{
     background-color: #1f2937;
 
 }
 
+/* hero text and image */
 .hero {
     display: flex;
     margin: 0px;
     padding: 80px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 48px;
 }
 
 .hero-left {
@@ -64,11 +75,6 @@ header, .hero, footer {
     color: #e5e7eb;
 }
 
-ul {
-    display: flex;
-    gap: 16px;
-    list-style: none;
-}
 
 .reg-1 {
     background-color: #3882f6;
@@ -151,7 +157,7 @@ button {
 .call-to-action {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     color: #f9faf8;
     background-color: #3882f6;
     padding: 32px;
