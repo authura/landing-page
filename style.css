@@ -74,13 +74,13 @@ ul {
     background-color: #3882f6;
     color: #e5e7eb;
     font-weight: bold;
+    border: none;
 }
 
 button {
     display: block;
     width: 30%;
     height: 32px;
-    border: none;
     text-align: center;
     font-size: 16px;
     border-radius: 8px;
@@ -148,8 +148,47 @@ button {
     color: #1f2937;
 }
 
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 32px;
+    margin: 114px;
+    border-radius: 8px;
+}
+
+.cta-text {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+}
+
+.call-to-action h3 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.call-to-action p {
+    font-size: 18px;
+}
+
+.cta-btn {
+    display: block;
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 125px;
+}
+
+
 footer {
-    padding: 16px;
+    padding: 32px;
     color: #e5e7eb;
     text-align: center;
 }
